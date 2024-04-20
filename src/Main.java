@@ -39,30 +39,28 @@ public class Main {
         System.out.println(" ");
         System.out.println("задание 3");
 
-        int[] arr={1,2,3};
-        for (int i = arr.length-1; i >= 0; i--)
+        for (int i = b.length-1; i >= 0; i--)
         {
-            System.out.print(arr[i]);
+            System.out.print(b[i]);
             if  (i !=0)
             {
                 System.out.print(", ");
             }
         }
         System.out.println(" ");
-        double [ ] arr2 ={1.57, 7.654, 9.986};
-        for (int i = arr2.length-1; i >= 0; i--)
+        for (int i = a.length-1; i >= 0; i--)
         {
-            System.out.print(arr2[i]);
+            System.out.print(a[i]);
                 if  (i !=0)
                 {
                 System.out.print(", ");
                 }
         }
         System.out.println(" ");
-        int [ ] arr3={6,7,9};
-        for (int i = arr3.length-1; i >= 0; i--)
+
+        for (int i = c.length-1; i >= 0; i--)
         {
-            System.out.print(arr3[i]);
+            System.out.print(c[i]);
             if  (i !=0)
             {
                 System.out.print(", ");
@@ -70,15 +68,15 @@ public class Main {
         }
         System.out.println(" ");
         System.out.println("задание 4");
-        int[] arr4={1,2,3};
-        for (int i = 0; i < arr4.length; i++)
+
+        for (int i = 0; i < b.length; i++)
         {
-            if (arr4[i] % 2 != 0)
+            if (b[i] % 2 != 0)
             {
-                arr4[i]++;
+                b[i]++;
             }
         }
-                System.out.println(Arrays.toString(arr4));
+                System.out.println(Arrays.toString(b));
 
 
 
